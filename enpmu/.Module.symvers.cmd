@@ -1,0 +1,1 @@
+cmd_/home/soc/xcl/llvm/enpmu/Module.symvers :=  sed 's/ko$$/o/'  /home/soc/xcl/llvm/enpmu/modules.order | scripts/mod/modpost -m     -o /home/soc/xcl/llvm/enpmu/Module.symvers -e -i Module.symvers -T - 

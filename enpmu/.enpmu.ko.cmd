@@ -1,0 +1,1 @@
+cmd_/home/soc/xcl/llvm/enpmu/enpmu.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/soc/xcl/llvm/enpmu/enpmu.ko /home/soc/xcl/llvm/enpmu/enpmu.o /home/soc/xcl/llvm/enpmu/enpmu.mod.o;  true
